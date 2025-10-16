@@ -1,0 +1,100 @@
+mother(X, Z), descendant(Y, X), descendant(Y, ellaria_sand), parent(lewyn_martell, Z).
+ancestor(_EX5, maron_greyjoy).
+ancestor(_EX6, rodrick_greyjoy).
+child(_EX2, _EX0).
+status(melisandre, X), status(the_hound, X).
+child(X, unknown_mother_stark), ancestor(X, jon_snow).
+child(X, _EX2).
+ancestor(_EX5, balon_greyjoy).
+descendant(aeron_greyjoy, X), descendant(Y, X), descendant(Y, balon_greyjoy).
+descendant(Y, X), child(eddard_stark, X), child(Y, eddard_stark).
+descendant(tyrion_lannister, X), parent(X, Y), mother(Y, tommen_lannister), child(Y, tywin_lannister), mother(Y, myrcella_lannister).
+parent(X, Y), descendant(joffery_lannister, X), ancestor(X, Y).
+descendant(_EX0, cassana_estermont).
+descendant(_EX1, Z).
+ancestor(X, obara_sand), daughter(obara_sand, X), descendant(obara_sand, X), child(obara_sand, X), parent(X, obara_sand).
+ancestor(mace_tyrell, margaery_tyrell).
+descendant(theon_greyjoy, _EX4).
+status(X, Y), daughter(X, alannys_harlaw), mother(alannys_harlaw, X), status(gendry, Y), child(X, alannys_harlaw).
+ancestor(catelyn_stark, X), ancestor(eddard_stark, X), child(X, eddard_stark).
+descendant(Z, _EX3).
+father(eddard_stark, X), ancestor(unknown_mother_stark, X), child(X, eddard_stark), parent(catelyn_stark, X).
+child(X, Y), descendant(X, Y), son(X, Y).
+status(X, Y), status(Z, Y).
+ancestor(_EX5, _EX0).
+ancestor(unknown_mother_martell, X), ancestor(lewyn_martell, X), status(X, Y), status(Z, Y), ancestor(Z, loras_tyrell).
+father(balon_greyjoy, X), ancestor(Y, X), child(X, Y), ancestor(balon_greyjoy, X), parent(Y, yara_greyjoy).
+ancestor(Y, X), child(X, Y), child(Y, Z), ancestor(Z, sarella_sand).
+ancestor(Y, _EX1).
+who_betrayed_daenerys(X), betray(X, daenerys_targaryen).
+father(X, Y), son(Y, X), descendant(X, aerys_targaryen), parent(lyanna_stark, Y), father(aerys_targaryen, X).
+ancestor(_EX0, _EX5).
+descendant(_EX0, tytos_lannister).
+descendant(X, unknown_mother_greyjoy), father(Y, X), parent(unknown_mother_greyjoy, Y).
+parent(X, obara_sand), daughter(obara_sand, X), child(obara_sand, X).
+mother(olenna_tyrell, _EX1).
+daughter(_EX2, unknown_mother_sand_3).
+mother(joanna_lannister, _EX5).
+father(X, Y), ancestor(X, brandon_stark), daughter(Y, unknown_mother_stark), descendant(rickon_stark, X).
+betray(tyrion_lannister, X), love(Z, X), love(X, Y), who_loved_daenerys_and_was_corresponded(Y), who_loved_daenerys(Z).
+who_brought_the_winter(X), status(X, Y), creatures(X), status(willem_lannister, Y), status(doran_martell, Y).
+father(X, bran_stark), status(X, dead).
+son(_EX2, _EX6).
+ancestor(X, cersei_lannister).
+descendant(rickon_stark, X), ancestor(X, Y), ancestor(aerys_targaryen, Y), male(Y), ancestor(unknown_mother_stark, Y).
+child(joffery_lannister, _EX2).
+ancestor(_EX5, _EX4).
+descendant(Y, _EX0).
+status(X, Y), status(melisandre, Y).
+ancestor(_EX2, Z).
+child(_EX4, mace_tyrell).
+child(_EX2, _EX1).
+father(X, _EX4).
+son(tyene_sand, X).
+status(ilyn_payne, X), status(melisandre, X).
+ancestor(rhaella_targaryen, _EX5).
+descendant(_EX4, _EX1).
+descendant(Y, X).
+descendant(_EX6, Z).
+child(tywin_lannister, _EX5).
+descendant(martyn_lannister, X), son(willem_lannister, X), parent(Y, X), descendant(cersei_lannister, Y), child(X, tytos_lannister).
+who_loved_daenerys(X), love(X, daenerys_targaryen).
+ancestor(unknown_mother_lannister, _EX1).
+child(Z, rhaegar_targaryen).
+ancestor(_EX3, _EX4).
+who_loved_daenerys_and_was_corresponded(_EX5).
+ancestor(unknown_father_greyjoy, _EX2).
+parent(Y, X), descendant(shireen_baratheon, X), male(X), son(X, Y), ancestor(Y, X).
+descendant(_EX4, aegon_v_targaryen).
+ancestor(jaime_lannister, _EX1).
+ancestor(X, _EX5).
+descendant(Y, tytos_lannister).
+who_loved_daenerys_and_was_corresponded(X), love(X, daenerys_targaryen).
+daughter(rhaenys_targaryen, _EX2).
+descendant(_EX0, _EX6).
+descendant(_EX4, Y).
+descendant(_EX3, alannys_harlaw).
+ancestor(Z, willem_lannister).
+descendant(nymeria_sand, oberyn_martell).
+parent(X, nymeria_sand), ancestor(X, nymeria_sand).
+father(_EX4, X).
+parent(X, cersei_lannister), child(cersei_lannister, X).
+ancestor(Z, _EX0).
+descendant(maron_greyjoy, _EX3).
+ancestor(elia_martell, _EX6).
+child(X, elia_martell), status(X, dead).
+ancestor(X, rickon_stark).
+son(Y, X).
+parent(Y, X), father(rhaegar_targaryen, X), parent(Y, rhaenys_targaryen).
+ancestor(elia_martell, X).
+ancestor(X, joffery_lannister), parent(X, myrcella_lannister), betray(jaime_lannister, X), descendant(X, tywin_lannister).
+status(X, dead).
+ancestor(aerys_targaryen, Z).
+child(_EX3, _EX4).
+ancestor(_EX2, Z).
+descendant(_EX6, _EX3).
+ancestor(X, maron_greyjoy), son(Y, X), descendant(Y, X), father(Y, maron_greyjoy), father(X, euron_greyjoy).
+son(Y, jaime_lannister).
+descendant(Y, X), male(X), ancestor(X, tyene_sand), ancestor(unknown_mother_sand_2, Y), son(doran_martell, X).
+mother(X, brandon_stark).
+descendant(_EX1, _EX5).
